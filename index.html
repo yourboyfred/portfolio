@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link ref="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fredick | Portfolio</title>
-  <link rel="stylesheet" href="style.css"> </head>
+  <link rel="stylesheet" href="style.css">
+ </head>
 <body>
   <header>
-    <img src="images/image1.jpeg" alt="my test" width="200" height="200" >
-    <h1>Fredrick Kimathi</h1>
+    <div class="intro">
+      <img class="displayImage" src="images/image1.jpeg" alt="my test" width="220" height="220" >
+    <h1 class="displayName">Fredrick Kimathi</h1>
     <p>Software Engineering Intern @ cytonn Investments</p>
+    </div>
+    
   </header>
 
-  <nav>
+  <nav class="navigation">
     <ul>
       <li><a href="#about">About Me</a></li>
       <li><a href="#projects">Projects</a></li>
@@ -22,12 +27,15 @@
 
   <main>
     <section id="about">
-      <h2>About Me</h2>
+      <div class ="aboutInfo">
+        <h2>About Me</h2>
       <p>I am currently a final year student at the Technical University of Kenya pursuing Computer Technology. An expert in:
         <li>software engineering, </li>
           <li>Database management, </li>
             <li>Cloud computing </li>
        </p>
+      </div>
+      
     </section>
 
     <section id="projects">
